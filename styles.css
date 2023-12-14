@@ -1,0 +1,327 @@
+html {
+    box-sizing:border-box;
+    background-image: linear-gradient(to right, #2C1000, #603813, #2C1000);
+    font-family: vendetta, serif;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.logo {
+    width: 30%;
+    padding-top: 10px;
+}
+
+.navbar {
+    font-weight: 500;
+    font-size: 50px;
+    background-color: #2C1000;
+    margin: -20px 0 0 0;
+    padding-top: 10px;
+    position: fixed;
+    display: inline;
+    list-style-type: none;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px 0px 20px;
+
+}
+
+a:visited {
+    color: #E08C00;
+}
+a:hover {
+    color: gold;
+}
+
+li {
+    display: inline;
+}
+
+.grid-container {
+    display: grid;
+    color: #E08C00;
+    font-size: 40px;
+    grid-template-columns: 40% 40%;
+}
+
+.grid-img {
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.grid-hours {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+.grid-times {
+    grid-column-start: 2;
+}
+.grid-phone {   
+    grid-column-start: 2;
+}
+.grid-address {
+    grid-column-start: 2;
+}
+.grid-fb {
+    grid-column-start: 2;
+    
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow: hidden;
+}
+
+.footer {
+    display: grid;
+    background-color: #2C1000;
+    grid-template-columns: 50% 50%;
+    font-size: 200%;
+    padding: 10px;
+}
+.foot-hours {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-times {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-phone {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+.foot-address {
+    grid-column-start: 1;
+    color:#E08C00;
+
+}
+
+.map {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.cfabimg {
+    position: relative;
+    text-align: center;
+}
+
+.cfabtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#E08C00;
+    font-size: 25px;
+}
+
+.history {
+    color:red;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    color:#E08C00;
+    font-size: 1.25em;
+    grid-gap: 1.15em;
+    margin: 1.15em;
+}
+
+.pizza-head {
+    grid-column-start: 1;
+    font-size: 3em;
+}
+.pizza-dsc {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.tostada-head {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.tostada-dsc {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+.blt-head {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.blt-dsc {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+.veg-head {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    font-size: 1.5em;
+}
+.veg-dsc {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+.greek-head {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    font-size: 1.5em;
+}
+.greek-dsc {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+.garlic-head {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.garlic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+.lobster-head {
+    grid-column-start: 3;
+    grid-row-start: 5;
+    font-size: 1.5em;
+
+}
+.lobster-dsc {
+    grid-column-start: 3;
+    grid-row-start: 6;
+}
+.pesto-head {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.pesto-dsc {
+    grid-column-start: 1;
+    grid-row-start: 8;
+}
+.ques-head {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.ques-dsc {
+    grid-column-start: 2;
+    grid-row-start: 8;
+}
+.bbq-head {
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-size: 1.5em;
+
+}
+.bbq-dsc {
+    grid-column-start: 3;
+    grid-row-start: 8;
+}
+.byo-head {
+    grid-column-start: 2;
+    grid-row-start: 10;
+    font-size: 1.5em;
+}
+.byo-basic {
+    grid-column-start: 2;
+    grid-row-start: 11;
+}
+.byo-basic-dsc {
+    grid-column-start: 2;
+    grid-row-start: 12;
+}
+.meats {
+    grid-column-start: 1;
+    grid-row-start: 13;
+}
+.shrimp-chick {
+    grid-column-start: 2;
+    grid-row-start: 13;
+}
+.veggies {
+    grid-column-start: 3;
+    grid-row-start: 13;
+}
+.pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 14;
+    font-size: 3em;
+}
+.pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    grid-column-end: 3;
+}
+.lasagna-head {
+    grid-column-start: 1;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.lasagna-dsc {
+    grid-column-start: 1;
+    grid-row-start: 17;
+}
+.ravioli-head {
+    grid-column-start: 2;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.ravioli-dsc {
+    grid-column-start: 2;
+    grid-row-start: 17;
+}
+.spaghetti-head {
+    grid-column-start: 3;
+    grid-row-start: 16;
+    font-size: 1.5em;
+}
+.spaghetti-dsc {
+    grid-column-start: 3;
+    grid-row-start: 17;
+}
+.pesto-pasta-head {
+    grid-column-start: 1;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.pesto-pasta-dsc {
+    grid-column-start: 1;
+    grid-row-start: 19;
+}
+.spec-head {
+    grid-column-start: 2;
+    grid-row-start: 18;
+    font-size: 1.5em;
+}
+.spec-dsc {
+    grid-column-start: 2;
+    grid-row-start: 19;
+}
